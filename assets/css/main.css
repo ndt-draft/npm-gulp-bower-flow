@@ -1,0 +1,48 @@
+/**
+ * Main typo
+ */
+h1 {
+  font-size: 26px; }
+
+h2 {
+  font-size: 24px; }
+
+/**
+ * Main Style
+ */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto; }
+
+/**
+ * Grid
+ */
+.grid {
+  margin: auto;
+  background-color: #eee; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.grid-sizer {
+  width: 20%; }
+
+.grid-item {
+  width: 20%;
+  float: left;
+  border-radius: 5px; }
+
+.grid-item.landscape-item {
+  width: 40%; }
+
+.grid-content {
+  padding: 5px; }
+
+.grid-content h3 {
+  margin: 5px 0 5px; }
