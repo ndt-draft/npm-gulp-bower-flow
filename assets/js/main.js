@@ -18,7 +18,7 @@ $(document).ready(function () {
     var a = new testClass();
 });
 
-$(document).ready( function() {
+$(document).ready(function () {
     var $grid = $('.grid').masonry({
         itemSelector   : '.grid-item',
         columnWidth    : '.grid-sizer',
