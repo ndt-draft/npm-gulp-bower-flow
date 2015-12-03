@@ -46,6 +46,11 @@
     width: 66.666%; // not fit issue: 33.2%
 }
 
+.grid-post-wrapper {
+    border: 1px solid #eaeaea;
+    border-bottom-width: 3px;
+}
+
 .grid-content {
     padding: 5px;
 }
